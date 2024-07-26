@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="marquee">
+        <span>Note:</span>
+        <marquee behavior="scroll" direction="right">
+            Our deal will be done when the parcel reaches to you ---
+            Our deal will be done when the parcel reaches to you
+            --- Our deal will be done when the parcel reaches to you
+        </marquee>
+    </div>
+    <div class="red"><br>
+        <h1>F.D Feedback <br>Center</h1>
+    </div>
+    <center>
+        <div class="button">
+            <a href="index.html"><button class="btn">Home &#127968;</button></a>
+            <a href="food.html"><button class="btn">Foods &#127828;</button></a>
+            <a href="grocery.html"><button class="btn">Grocery &#127838;</button></a>
+            <a href="feedback.html"><button class="btn">Feedback &#128522;</button></a>
+            <a href="about.html"><button class="btn">About &#129335;</button></a>
+        </div>
+    </center>
+    <div class="break">
+        <h3 class="fill">Fill out the form so we can get your feedback</h3><br>
+        <form action="give.html" method="get">
+            <label for="fname">Name:</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="name" id="fname" required placeholder="Enter your Name"><br><br>
+            <label for="number">Phone Number:</label>
+            &nbsp;&nbsp;
+            <input type="number" name="phone" id="number" required placeholder="Enter your Number"><br><br>
+            <label for="email">Email Address:</label>
+            &nbsp;&nbsp;
+            <input type="email" name="e-mail" id="email" required placeholder="abc@gmail.com"><br><br>
+            <table>
+                <tr>
+                    <td>
+                        <label for="feedback">Feedback:</label>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td>
+                        <textarea name="text" id="feedback" cols="30" rows="3" required></textarea>
+                    </td>
+                </tr>
+            </table><br><br>
+            <center>
+                <div class="btn-order">
+                    <input type="submit" value="Submit Feedback" class="btn-group">
+                    <input type="reset" value="Reset Feedback" class="btn-groups">
+                </div>
+            </center>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,207 @@
+.marquee{
+    background-color: #f1eb90;
+    height: 40px;
+}
+.red{
+    text-align: center;
+    background-color: #ec8f5e;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -2px;
+    height: 150px;
+}
+.btn{
+    display: inline-block;
+    background-color: #f3b664;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    margin-top: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.btn:hover{
+    background-color: #ec8f5e;
+    color: black;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.heading{
+    text-align: center;
+    background-color: #f1eb90;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60px;
+}
+h2{
+    padding-top: 10px;
+}
+.btns{
+    display: inline-block;
+    background-color: #f3b664;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    margin-top: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.btns:hover{
+    background-color: #ec8f5e;
+    color: black;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+li{
+    font-family: "Salsa", cursive;
+}
+.class{
+    background-color: #f1eb90;
+    color: black;
+    font-family: "Salsa", cursive;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.class:hover{
+    background-color: #ec8f5e;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.orange{
+    width: 100%;
+    background-color: #f1eb90;
+    height: 440px;
+    margin-top: -10px;
+}
+.id{
+    font-family: "Salsa", cursive;
+    text-align: center;
+}
+label{
+    margin-left: 550px;
+    font-family: "Salsa", cursive;
+    font-weight: bold;
+}
+.oranges{
+    width: 100%;
+    background-color: #f1eb90;
+    height: 640px;
+    margin-top: -20px;
+}
+.head{
+    font-family: "Salsa", cursive;
+    text-align: center;
+}
+.back{
+    margin-top: -400px;
+    margin-left: 550px;
+    background-color: #ec8f5e;
+    color: black;
+    width: 200px;
+    height: 35px;
+}
+.back:hover{
+    background-color: #f3b664;
+    color: black;
+    cursor: pointer;
+    font-family: "Salsa", cursive;
+    font-weight: bold;
+}
+h3.body{
+    padding-top: 10px;
+    background-color: #f1eb90;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.abc{
+    text-decoration: none;
+    padding-top: -10px;
+}
+.break{
+    background-color: #f1eb90;
+    width: 100%;
+    height: 600px;
+    margin-top: 5px;
+}
+.fill{
+    font-family: "Salsa", cursive;
+    text-align: center;
+    padding-top: 80px;
+    border-bottom: 2px solid #ec8f5e;
+    width: 32%;
+    margin-left: 450px;
+}
+label{
+    font-family: "Salsa", cursive;
+    margin-left: 500px;
+    font-size: large;
+}
+input::placeholder{
+    font-family: "Salsa", cursive;
+}
+.btn-group{
+    background-color: #ec8f5e;
+    color: #ffffff;
+    width: 180px;
+    height: 40px;
+}
+.btn-group:hover{
+    background-color: #f3b664;
+    color: black;
+    cursor: pointer;
+}
+.btn-groups{
+    background-color: #f3b664;
+    color: #000000;
+    width: 180px;
+    height: 40px;
+}
+.btn-groups:hover{
+    background-color: #ec8f5e;
+    color: #ffffff;
+    cursor: pointer;
+}
+.thanks{
+    text-align: center;
+    font-family: "Salsa", cursive;
+}
+.light{
+    background-color: #f1eb90;
+    width: 100%;
+    height: 1200px;
+    margin-top: 5px;
+}
+.h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    line-height: 1.3;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+.discover::first-letter{
+    font-size: 40px;
+}
+.story{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.image{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+}
+.center{
+    display: inline-block;
+}
+.small{
+    width: 90px;
+    margin-left: 20px;
+}
